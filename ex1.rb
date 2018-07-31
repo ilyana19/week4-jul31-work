@@ -20,6 +20,9 @@ hash[:data][:rooms].each do |room|
   end
 end
 
+# clear the terminal
+puts `clear`
+
 # Find all the events taking place in room 201. Iterate through them and print "ok" if the number of planned attendees will fit in the room.
 id = 0
 capacity = 0
